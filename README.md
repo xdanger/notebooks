@@ -1,4 +1,9 @@
-# Notebooks Category List
+
+
+# Notebooks List
+
+This is my PERSONAL notebooks repo for learning python, matplotlib & science etc.
+Although it's opensource, but may be not really meaningful for you.
 
 
 ## Mathematics
