@@ -27,11 +27,9 @@ sigma = zeros(1, size(X, 2));
 %       
 
 
-mu = mean(X)
-sigma  = std(X)
-a = X - mu
-a / sigma
-%X_norm = (X - mu) / sigma;
+mu = mean(X);
+sigma  = std(X);
+X_norm = (X - mu) ./ sigma;
 
 
 % ============================================================
