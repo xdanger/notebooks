@@ -18,7 +18,7 @@ for iter = 1:num_iters
     %
 
     for j = 1:2
-        theta(j) = theta(j) - (alpha / m) * ((X * theta' - y)' * X[:, j]);
+        theta(j) = theta(j) - (alpha / m) * ((X * theta - y)' * X(:, j));
     end
     
 
